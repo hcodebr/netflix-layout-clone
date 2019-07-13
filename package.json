@@ -1,0 +1,24 @@
+{
+  "name": "netflix-layout-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcodebr/netflix-layout-clone.git"
+  },
+  "author": "Hcode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcodebr/netflix-layout-clone/issues"
+  },
+  "homepage": "https://github.com/hcodebr/netflix-layout-clone#readme"
+}

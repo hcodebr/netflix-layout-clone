@@ -1,0 +1,79 @@
+.title-item {
+    position: relative;
+    margin-right: 10px;
+}
+.title-item:hover .items {
+    opacity: 1;
+}
+.title-item img {
+    width: 100%;
+}
+.title-item .items {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    height: 100%;
+    padding: 10px;
+    background: -prefix-linear-gradient(top, rgba(0,0,0,.1), rgba(0,0,0,.7));
+    background: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,.7));
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    opacity: 0;
+}
+.title-item h2 {
+    color: #fff;
+    font-size: 20px;
+    margin: 5px auto;
+}
+.title-item .btn-play {
+    background: none;
+    border: #fff 2px solid;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+}
+.title-item .btn-play i {
+    color: red;
+}
+.title-item ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.title-item ul li {
+    margin-right: 10px;
+}
+.relevance {
+    color: #3FAD56;
+    font-weight: bold;
+}
+.age {
+    padding: 2px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    font-size: 12px;
+    height: 24px;
+    border-radius: 2px;
+}
+.age-12 {
+    background-color: #CDA521;
+    color: #000;
+}
+.age-12:before {
+    content: '12';
+}
+.parts {
+    font-weight: bold;
+}
