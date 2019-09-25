@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
 </head>
 <body>
 
@@ -103,7 +105,7 @@
 
             <h2 class="h4">Adicionados recentemente</h2>
 
-            <div class="d-flex flex-nowrap overflow-hidden">
+            <div class="d-flex flex-nowrap overflow-hidden owl-carousel">
 
                 <div class="title-item">
                     <img src="assets/img/guardios-da-galaxia.jpg" alt="Título">
@@ -239,7 +241,7 @@
         
             <h2 class="h4">Em alta</h2>
         
-            <div class="d-flex flex-nowrap overflow-hidden">
+            <div class="d-flex flex-nowrap overflow-hidden owl-carousel">
         
                 <div class="title-item">
                     <img src="assets/img/guardios-da-galaxia.jpg" alt="Título">
@@ -376,7 +378,7 @@
             <h2 class="h4">Continuar assistindo como <span class="tex-uppercase">Djalma Sindeaux</span></h2>
         
             
-            <div class="d-flex flex-nowrap overflow-hidden">
+            <div class="d-flex flex-nowrap overflow-hidden owl-carousel">
         
                 <div class="title-item">
                     <img src="assets/img/guardios-da-galaxia.jpg" alt="Título">
@@ -520,9 +522,14 @@
     </footer>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script>
     $(() => {
+
+        $(".owl-carousel").owlCarousel({
+            loop: true
+        });
 
         $('.navbar-toggler').on('click', event => {
 
