@@ -107,7 +107,7 @@ h2, footer {
     opacity: 1;
 }
 .title-item img {
-    width: 100%;
+    width: 350px;
 }
 .title-item .items {
     position: absolute;
@@ -191,9 +191,6 @@ h2, footer {
 @media (min-width: 768px) {
     .full-banner .d-flex {
         align-items: center;
-    }
-    .list-titles img {
-        min-width: 230px;
     }
 }
 
