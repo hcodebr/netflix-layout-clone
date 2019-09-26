@@ -80,7 +80,10 @@ body {
 .list-titles img {
     min-width: 160px;
 }
-h2, footer {
+h2 {
+    color: #e5e5e5;
+}
+footer {
     color: #999898;
 }
 .title-item {
@@ -151,6 +154,13 @@ h2, footer {
     font-size: 12px;
     height: 24px;
     border-radius: 2px;
+    color: #FFF;
+}
+.age-free {
+    background-color: rgb(0, 156, 76);
+}
+.age-free:before {
+    content: 'L';
 }
 .age-12 {
     background-color: #CDA521;
@@ -158,6 +168,24 @@ h2, footer {
 }
 .age-12:before {
     content: '12';
+}
+.age-14 {
+    background-color: rgb(231, 121, 43);
+}
+.age-14:before {
+    content: '14';
+}
+.age-16 {
+    background-color: rgb(215, 38, 45);
+}
+.age-16:before {
+    content: '16';
+}
+.age-18 {
+    background-color: rgb(19, 17, 17);
+}
+.age-18:before {
+    content: '18';
 }
 .parts {
     font-weight: bold;
