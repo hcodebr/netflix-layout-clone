@@ -90,11 +90,24 @@ footer {
     position: relative;
     margin-right: 10px;
 }
+.title-item img {
+    width: 100%;
+}
+.title-item video {
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .title-item:hover .items {
     opacity: 1;
 }
-.title-item img {
-    width: 350px;
+.title-item:hover img {
+    opacity: 0;
+}
+.title-item:hover video {
+    display: block;
 }
 .title-item .items {
     position: absolute;
