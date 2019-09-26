@@ -1,0 +1,5 @@
+# Netflix Clone
+
+O projeto Netflix clone é educacional e foi desenvolvido como parte do curso online [Web Fundamentos 2019 - HTML5, CSS3 e JavaScript](https://www.udemy.com/course/web-html5-css3-javascript/?couponCode=HCODE_GITHUB_NETFLIX) e usado na [playlist de Angular 8 no canal da Hcode no YouTube](https://www.youtube.com/playlist?list=PL-u8JWLN6xasUXsbNeDZSMQTq5T4_Utko).
+
+![enter image description here](https://firebasestorage.googleapis.com/v0/b/hcode-com-br.appspot.com/o/netflix-clone.jpg?alt=media&token=c72c552c-cccb-41d3-b90b-50743875f063)
