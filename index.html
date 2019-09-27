@@ -350,6 +350,13 @@
 
         });
 
+        item.addEventListener('mouseleave', e => {
+            
+            video.currentTime = 0;
+            video.pause();
+
+        });
+
         item.addEventListener('click', e => {
 
             video.muted = !video.muted;
